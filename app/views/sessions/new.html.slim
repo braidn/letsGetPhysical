@@ -1,0 +1,9 @@
+= form_tag sessions_path do
+  .field
+    = label :email
+    = text_field :email
+  .field
+    = label :password
+    = password_field :password
+  .actions
+    = submit_tag "Log IN"
