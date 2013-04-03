@@ -6,6 +6,12 @@ gem 'sqlite3'
 gem 'sorcery'
 # slim language, just playing with it, fairly simple really if you know haml
 gem 'slim-rails'
+# rails in-app, woha mind blownzor
+gem 'sextant'
+# sexy messages if wrenching out make sure to remove the require call in
+# sprockets manifest
+gem "message_block"
+
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
