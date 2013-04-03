@@ -1,0 +1,17 @@
+= form_for @workout do |f|
+  .field
+    = f.label :title
+    = f.text_field :title
+  .field
+    = f.label :description
+    = f.text_area :description
+  .field
+    = f.label :image, "Image Url" 
+    = f.text_field :image
+  .field
+    = f.label :video, "Video Url"
+    = f.text_field :video
+  .field
+    = f.label :body_type_id
+    = f.collection_select :body_type_id, BodyType.all, :id, :title
+  .actions = f.submit 'Save'

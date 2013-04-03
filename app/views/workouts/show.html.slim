@@ -1,0 +1,21 @@
+p#notice = notice
+
+p
+  strong Description:
+  = @workout.description
+p
+  strong Image:
+  = @workout.image
+p
+  strong Title:
+  = @workout.title
+p
+  strong Video:
+  = @workout.video
+p
+  strong Body type:
+  = @workout.body_type.title
+
+= link_to 'Edit', edit_workout_path(@workout)
+'|
+= link_to 'Back', workouts_path

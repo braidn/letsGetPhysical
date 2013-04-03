@@ -1,0 +1,27 @@
+h1 Listing workouts
+
+table
+  tr
+    th Description
+    th Image
+    th Title
+    th Video
+    th Body type
+    th
+    th
+    th
+
+  - @workouts.each do |workout|
+    tr
+      td = workout.description
+      td = workout.image
+      td = workout.title
+      td = workout.video
+      td = workout.body_type
+      td = link_to 'Show', workout
+      td = link_to 'Edit', edit_workout_path(workout)
+      td = link_to 'Destroy', workout, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Workout', new_workout_path

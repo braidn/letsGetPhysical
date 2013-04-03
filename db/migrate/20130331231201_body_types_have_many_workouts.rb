@@ -1,15 +1,8 @@
 class BodyTypesHaveManyWorkouts < ActiveRecord::Migration
-  def up
-    change_table :workouts do |t|
-      t.references :body_types
-      t.index :body_type
-    end
-  end
-
-  def down
-    change_table :workouts do |t|
-      t.remove_references :body_types
-      t.remove_index :body_type
-    end
+  def change
+    remove_column :workouts, :body_types_id
+    add_column :workouts, :body_type_id, :integer
+    add_index :workouts, :body_type_id
   end
 end
+

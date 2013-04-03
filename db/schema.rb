@@ -33,9 +33,11 @@ ActiveRecord::Schema.define(:version => 20130331231201) do
     t.string   "description"
     t.string   "image"
     t.string   "video"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
-    t.integer  "body_types_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.integer  "body_type_id"
   end
+
+  add_index "workouts", ["body_type_id"], :name => "index_workouts_on_body_type_id"
 
 end
