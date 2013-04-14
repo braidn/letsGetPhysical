@@ -6,6 +6,5 @@ class HomeController < ApplicationController
   end
 
   def secret
-    # not so, huh
   end
 end
