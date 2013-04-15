@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130414172209) do
+ActiveRecord::Schema.define(:version => 20130414172835) do
 
   create_table "combos", :force => true do |t|
     t.string   "name"
@@ -33,11 +33,8 @@ ActiveRecord::Schema.define(:version => 20130414172209) do
     t.string   "description"
     t.string   "image"
     t.string   "video"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.integer  "body_type_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
   end
-
-  add_index "workouts", ["body_type_id"], :name => "index_workouts_on_body_type_id"
 
 end
