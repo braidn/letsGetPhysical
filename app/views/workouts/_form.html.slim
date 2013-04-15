@@ -12,6 +12,6 @@
     = f.label :video, "Video Url"
     = f.text_field :video
   .field
-    = f.label :body_type_id
-    = f.collection_select :body_type_id, BodyType.all, :id, :title
+    = f.label :body_type
+    = f.select :body_type, options_for_select(Workout::BODY_TYPES)
   .actions = f.submit 'Save'
