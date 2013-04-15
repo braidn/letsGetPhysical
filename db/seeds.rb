@@ -5,7 +5,3 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-BodyType.create(title: 'Shoulders', description: 'Stuff that holds your arms on')
-BodyType.create(title: 'Biceps', description: 'Stuff that gets the women')
-BodyType.create(title: 'Calves', description: 'Stuff that allows you to jump higher')
-BodyType.create(title: 'Abs', description: 'Stuff that is always hard to get right')
