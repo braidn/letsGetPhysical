@@ -25,6 +25,19 @@ group :development do
   gem 'meta_request'
 end
 
+group :test, :development do
+	gem 'rspec-rails'
+	gem 'fabrication'
+end
+
+group :test do
+	gem 'database_cleaner'
+	gem 'faker'
+	gem 'capybara'
+	gem 'launchy'
+	gem 'fivemat'
+end
+
 group :production do
   gem 'pg'
 end
