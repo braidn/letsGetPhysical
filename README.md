@@ -11,6 +11,7 @@ stack.
 1. Clone the WomenWorkout Repo into the same folder created from number 2
 1. While in the directory of the VagrantFile, type 'vagrant ssh' and hit enter
 1. Welcome to Linux! type cd '/site'
+1. Welcome to not much. type 'rake db:migrate' and hit enter
 1. Welcome to the WomenWorkout Repo! type 'rails s'
 1. Go to a browser type localhost:3000 and hit enter
 1. Click play, dance, eat a coconut whole, blow bubbles, play 4square, hwhatevah!
