@@ -21,8 +21,38 @@ head
   = javascript_include_tag "vendor/custom.modernizr"
   = csrf_meta_tag
 
-body
+  nav.top-bar
+    ul.title-area
+      li.name
+        a href='#'
+          img src="images/fitmiss.png"
+      li[class="toggle-topbar menu-icon"]
+        a href='#'
+          span
+    section.top-bar-section
+      ul.left
+        li
+          a href='#' Profile
+        li
+          a href='#' Library
+        li
+          a href='#' Community
+      /! Right Nav Section
+      ul.right
+        li.new-workout-btn
+          a href='#' New Workout
+        li.has-dropdown
+          a href='#' User Name
+          ul.dropdown
+            li
+              a href='#' Option 1
+            li
+              a href='#' Option 2
+            li
+              a href='#' Option 3
+            li.divider
 
-  == yield
+  .row
+    == yield
 
   = javascript_include_tag "application"
