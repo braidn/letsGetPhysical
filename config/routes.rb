@@ -7,10 +7,9 @@ WomenWorkout::Application.routes.draw do
   get "logout" => "sessions#destroy", :as => "logout"
   get "login" => "sessions#new", :as => "login"
   get "signup" => "users#new", :as => "signup"
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
-
+  get "profile" => "home#profile", :as => "signup"
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action

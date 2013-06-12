@@ -7,4 +7,7 @@ class HomeController < ApplicationController
 
   def secret
   end
+
+  def profile
+  end
 end
