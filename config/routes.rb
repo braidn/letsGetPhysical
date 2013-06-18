@@ -9,7 +9,8 @@ WomenWorkout::Application.routes.draw do
   get "signup" => "users#new", :as => "signup"
   # The priority is based upon order of creation:
   # first created -> highest priority.
-  get "profile" => "home#profile", :as => "signup"
+  get "profile" => "home#profile", :as => "profile"
+  get "library" => "home#library", :as => "library"
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action

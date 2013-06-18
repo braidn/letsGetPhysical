@@ -10,4 +10,7 @@ class HomeController < ApplicationController
 
   def profile
   end
+
+  def library
+  end
 end
