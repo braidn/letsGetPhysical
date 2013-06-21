@@ -23,8 +23,8 @@ $em-base: 16px !default;
 
 //// Various global styles
 
-$body-bg: #e8e9eb;
-// $body-font-color: #222;
+$body-bg: #f6f6f0;
+$body-font-color: #454545;
 $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -46,7 +46,7 @@ $alert-color: #ff6b6b;
 
 //// Make sure border radius matches unless we want it different.
 
-$global-radius: 5px;
+$global-radius: 3px;
 // $global-rounded: 1000px;
 
 //// Inset shadow shiny edges and depressions.
@@ -114,10 +114,10 @@ $global-radius: 5px;
 
 //// Heading font styles
 
-$header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-family: 'Bitter', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $header-font-weight: bold;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: #222;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -135,7 +135,7 @@ $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 //// Subheaders
 
 // $subheader-line-height: 1.4;
-// $subheader-font-color: lighten($header-font-color, 30%);
+$subheader-font-color: lighten($header-font-color, 40%);
 // $subheader-font-weight: 300;
 // $subheader-top-margin: .2em;
 // $subheader-bottom-margin: .5em;
@@ -805,12 +805,12 @@ $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
 
 $panel-bg: #fff;
 // $panel-border-style: solid;
-// $panel-border-size: 1px;
+$panel-border-size: 0px;
 
 //// Control how much we darken things on hover
 
 // $panel-function-factor: 10%;
-// $panel-border-color: darken($panel-bg, $panel-function-factor);
+// $panel-border-color: darken($panel-bg, 10%);
 
 //// Inner padding and bottom margin
 
