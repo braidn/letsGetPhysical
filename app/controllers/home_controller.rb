@@ -13,4 +13,7 @@ class HomeController < ApplicationController
 
   def library
   end
+
+  def settings
+  end
 end
