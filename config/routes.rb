@@ -9,8 +9,12 @@ WomenWorkout::Application.routes.draw do
   get "signup" => "users#new", :as => "signup"
   # The priority is based upon order of creation:
   # first created -> highest priority.
+  #This would likely be user->show
   get "profile" => "home#profile", :as => "profile"
+  #This would likely be workout->index
   get "library" => "home#library", :as => "library"
+  #This would likely be settings->show? Not sure your idea on settings,
+  #user settings?j
   get "settings" => "home#settings", :as => "settings"
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
