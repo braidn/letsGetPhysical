@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130419022634) do
+ActiveRecord::Schema.define(:version => 20130729023713) do
 
   create_table "combos", :force => true do |t|
     t.string   "name"
@@ -22,15 +22,6 @@ ActiveRecord::Schema.define(:version => 20130419022634) do
   end
 
   add_index "combos", ["user_id"], :name => "index_combos_on_user_id"
-
-  create_table "combos_workouts", :id => false, :force => true do |t|
-    t.integer  "combo_id",   :null => false
-    t.integer  "workout_id", :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "combos_workouts", ["combo_id", "workout_id"], :name => "index_combos_workouts_on_combo_id_and_workout_id", :unique => true
 
   create_table "users", :force => true do |t|
     t.string   "email",            :null => false
