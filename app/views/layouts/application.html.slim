@@ -20,7 +20,8 @@ head
   = stylesheet_link_tag "application"
   = javascript_include_tag "vendor/custom.modernizr"
   = csrf_meta_tag
-  <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic' rel='stylesheet' type='text/css'>
+
 
   nav.top-bar
     ul.title-area
@@ -33,24 +34,24 @@ head
     section.top-bar-section
       ul.left
         li
-          a href='#' Profile
+          a href='#' Dashboard
         li
-          a href='#' Library
+          a href='#' Workouts
         li
           a href='#' Community
       /! Right Nav Section
       ul.right
-        li.new-workout-btn
-          a href='#' New Workout
         li.has-dropdown
-          a href='#' User Name
+          // username goes below
+          a href='#' Allison
           ul.dropdown
             li
-              a href='#' Option 1
+              a href='#' Edit Profile
             li
-              a href='#' Option 2
+              a href='#' Subscription
+
             li
-              a href='#' Option 3
+              a href='#' Sign Out
             li.divider
 
   .row
