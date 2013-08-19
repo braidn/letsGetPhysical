@@ -8,7 +8,7 @@ class HomeController < ApplicationController
   def secret
   end
 
-  def profile
+  def dashboard
   end
 
   def library

@@ -10,7 +10,7 @@ WomenWorkout::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
   #This would likely be user->show
-  get "profile" => "home#profile", :as => "profile"
+  get "dashboard" => "home#dashboard", :as => "dashboard"
   #This would likely be workout->index
   get "library" => "home#library", :as => "library"
   #This would likely be settings->show? Not sure your idea on settings,

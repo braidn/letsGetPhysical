@@ -42,6 +42,7 @@ $font-smoothing: antialiased;
 $primary-color: #4baac4;
 $secondary-color: #e9e9e9;
 $alert-color: #ff6b6b;
+$light-purple: #878ed1;
 // $success-color: #5da423;
 
 //// Make sure border radius matches unless we want it different.
@@ -315,7 +316,7 @@ $subheader-font-weight: 200;
 
 //// Button border styles.
 
-// $button-border-width: 1px;
+$button-border-width: 0;
 // $button-border-style: solid;
 // $button-border-color: darken($primary-color, $button-function-factor);
 
@@ -884,7 +885,7 @@ $panel-border-size: 0px;
 
 //// Progress bar height
 
-// $progress-bar-height: emCalc(25px);
+$progress-bar-height: emCalc(15px);
 // $progress-bar-color: transparent;
 
 //// Border styles
@@ -901,7 +902,7 @@ $panel-border-size: 0px;
 
 //// Meter colors
 
-// $progress-meter-color: $primary-color;
+$progress-meter-color: #878ed1;
 // $progress-meter-secondary-color: $secondary-color;
 // $progress-meter-success-color: $success-color;
 // $progress-meter-alert-color: $alert-color;
@@ -982,10 +983,10 @@ $panel-border-size: 0px;
 
 //// Link styles
 
-// $side-nav-link-color: $primary-color;
+//$side-nav-link-color: $secondary-color;
 // $side-nav-link-color-active: lighten(#000, 30%);
-// $side-nav-font-size: emCalc(14px);
-// $side-nav-font-weight: bold;
+$side-nav-font-size: emCalc(16px);
+$side-nav-font-weight: bold;
 
 //// Border styles
 
