@@ -39,7 +39,7 @@ $font-smoothing: antialiased;
 
 //// Colors
 
-$primary-color: #4baac4;
+$primary-color: #58488a;
 $secondary-color: #e9e9e9;
 $alert-color: #ff6b6b;
 $light-purple: #878ed1;
@@ -47,7 +47,7 @@ $light-purple: #878ed1;
 
 //// Make sure border radius matches unless we want it different.
 
-$global-radius: 3px;
+$global-radius: 5px;
 // $global-rounded: 1000px;
 
 //// Inset shadow shiny edges and depressions.
@@ -986,7 +986,7 @@ $side-nav-list-margin: 0 0 emCalc(4px) 0;
 //$side-nav-link-color: $secondary-color;
 $side-nav-link-color-active: lighten(#000, 30%);
 $side-nav-font-size: emCalc(16px);
-$side-nav-font-weight: bold;
+$side-nav-font-weight: 600;
 
 //// Border styles
 
@@ -1144,7 +1144,7 @@ $side-nav-font-weight: bold;
 
 //// Background color for the top bar
 
-$topbar-bg: #21243f;
+$topbar-bg: #58488a;
 
 //// Height and margin
 
@@ -1162,7 +1162,7 @@ $topbar-height: 60px;
 
 //// Link colors and styles for top-level nav
 
-$topbar-link-color: #878ED1;
+$topbar-link-color: #c7c0de;
 // $topbar-link-weight: bold;
 $topbar-link-font-size: emCalc(17px);
 // $topbar-link-hover-lightness: -30% !default; // Darken by 30%
@@ -1171,7 +1171,7 @@ $topbar-link-bg-hover: #282d4e;
 //// Top bar dropdown elements
 
 $topbar-dropdown-bg: #4a5562;
-$topbar-dropdown-link-color: #878ED1;
+$topbar-dropdown-link-color: #fff;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
 // $topbar-dropdown-toggle-alpha: 0.5;
